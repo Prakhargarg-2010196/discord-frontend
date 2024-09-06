@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#json comments file(Needs wxzhang.json-comments to be installed)
+comments.json
+
+# Some other folders created for testing that are ignored
+/lib/redux/counter-slice-test/*

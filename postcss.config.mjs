@@ -1,8 +1,9 @@
+//Required to convert tailwindcss into normal css classes
 /** @type {import('postcss-load-config').Config} */
 const config = {
-  plugins: {
-    tailwindcss: {},
-  },
-};
+    plugins: {
+        tailwindcss: {},
+    },
+}
 
-export default config;
+export default config
