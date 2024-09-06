@@ -40,3 +40,4 @@ comments.json
 
 # Some other folders created for testing that are ignored
 /lib/redux/counter-slice-test/*
+/.vscode/*
