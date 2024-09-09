@@ -46,6 +46,8 @@
 - Activate the extension from typescript in nextjs and learn about the Readonly option in typescript
 - [To center a div using tailwind](https://daily-dev-tips.com/posts/center-elements-with-tailwind-css/) 
 
+(folder_name): Creates a organizational folder in nextjs
+
 ## Tech Stack
 Nextjs : For Frontend
 ShadCnUI : For Base Components

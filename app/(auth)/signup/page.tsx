@@ -47,7 +47,7 @@ export default function SignUpForm() {
             username: '',
             password: '',
             email: '',
-            dob: '2002-10-23',
+            dob: '',
         },
     });
 
@@ -72,6 +72,7 @@ export default function SignUpForm() {
                                 <FormLabel>Username</FormLabel>
                                 <FormControl>
                                     <Input
+                                        type='text'
                                         placeholder="Enter your username"
                                         {...field}
                                     />
@@ -91,6 +92,7 @@ export default function SignUpForm() {
                                 <FormLabel>Email</FormLabel>
                                 <FormControl>
                                     <Input
+                                        type='email'
                                         placeholder="Enter your email"
                                         {...field}
                                     />
@@ -110,6 +112,7 @@ export default function SignUpForm() {
                                 <FormLabel>Date Of Birth</FormLabel>
                                 <FormControl>
                                     <Input
+                                        type='date'
                                         placeholder="Enter your date of birth"
                                         {...field}
                                     />
@@ -139,8 +142,8 @@ export default function SignUpForm() {
                             </FormItem>
                         )}
                     />
-                    <Button className="self-center" type="submit">
-                        Submit
+                    <Button className="self-center w-1/4" type="submit">
+                        SignUp
                     </Button>
                 </form>
             </Form>

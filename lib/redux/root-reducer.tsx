@@ -1,5 +1,12 @@
+'use client';
 import { combineSlices } from '@reduxjs/toolkit';
-import count from './counter-slice-test/counter-slice-test';
-export const rootReducer = combineSlices({ count });
-export type RootState = ReturnType<typeof rootReducer>;
+import { djangoApi } from './rtk-query/django-api-query';
+import authSlice from './auth/slices/auth-slice';
+// import count from './counter/slices/counter-slice';
+export const rootReducer = combineSlices({
+    //*Normal state reducers
+    auth: authSlice,
 
+    //* rtk-query api slices
+    [djangoApi.reducerPath]: djangoApi.reducer,
+});

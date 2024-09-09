@@ -1,5 +1,5 @@
 import { useDispatch, useSelector, useStore } from 'react-redux';
-import type { RootState, AppDispatch, AppStore } from './store';
+import type { RootState, AppDispatch, AppStore } from '../store';
 
 /** 
  * useAppDispatch is the typed useDispatch hook with the current AppDispatch for the store
